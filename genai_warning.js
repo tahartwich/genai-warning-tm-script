@@ -1,30 +1,32 @@
 // ==UserScript==
-// @name         GenAI Warning
-// @namespace    https://github.com/tahartwich/genai-warning-tm-script/
-// @version      1.1
-// @description  Warning prompt for generative AI sites.
-// @author       You
-// @match        *://chatgpt.com*/*
-// @match        *://openai.com*/*
-// @match        *://gemini.google.ai*/*
-// @match        *://meta.ai*/*
-// @match        *://grammarly.com*/*
-// @match        *://huggingchat.co*/*
-// @match        *://copilot.microsoft.com*/*
-// @match        *://chatsonic.pro*/*
-// @match        *://writesonic.com*/*
-// @match        *://claude.ai*/*
-// @match        *://jasper.ai*/*
-// @match        *://neuroflash.com*/*
-// @match        *://poe.com*/*
-// @match        *://scribehow.com*/*
-// @match        *://quillbot.com*/*
-// @match        *://wordtune.com*/*
-// @match        *://*.ai*/*
-// @match        *://*deepai.org*/*
-// @icon
-// @grant        window.close
-// ==/UserScript==
+//     @name             GenAI Warning
+//     @namespace        https://github.com/tahartwich/genai-warning-tm-script/
+//     @downloadurl      https://raw.githubusercontent.com/tahartwich/genai-warning-tm-script/refs/heads/main/genai_warning.js
+//     @updateurl        https://raw.githubusercontent.com/tahartwich/genai-warning-tm-script/refs/heads/main/genai_warning.js
+//     @version          1.1.1
+//     @description      Warning prompt for generative AI sites.
+//     @author           You
+//     @match            *://chatgpt.com*/*
+//     @match            *://openai.com*/*
+//     @match            *://gemini.google.ai*/*
+//     @match            *://meta.ai*/*
+//     @match            *://grammarly.com*/*
+//     @match            *://huggingchat.co*/*
+//     @match            *://copilot.microsoft.com*/*
+//     @match            *://chatsonic.pro*/*
+//     @match            *://writesonic.com*/*
+//     @match            *://claude.ai*/*
+//     @match            *://jasper.ai*/*
+//     @match            *://neuroflash.com*/*
+//     @match            *://poe.com*/*
+//     @match            *://scribehow.com*/*
+//     @match            *://quillbot.com*/*
+//     @match            *://wordtune.com*/*
+//     @match            *://*.ai*/*
+//     @match            *://*deepai.org*/*
+//     @icon
+//     @grant            window.close
+//     ==/UserScript==
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
     window.trustedTypes.createPolicy('default', {
