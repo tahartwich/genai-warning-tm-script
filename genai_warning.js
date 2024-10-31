@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GenAI Warning
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @namespace    https://github.com/tahartwich/genai-warning-tm-script/
+// @version      1.1
 // @description  Warning prompt for generative AI sites.
 // @author       You
 // @match        *://chatgpt.com*/*
